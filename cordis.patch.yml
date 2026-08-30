@@ -1,0 +1,17 @@
+# Cordis patch layer for dsh-secret-leakage-scan
+#
+# Referenced by package.json -> dsh.bundle. When the plugin is mounted via
+#   npx @deepseek-ai/dsh plugin --profile web add github:<owner>/dsh-secret-leakage-scan
+# DSH loads this patch and discovers the bundled skill.
+#
+# The skill lives at ./skills/dsh-secret-leakage-scan/SKILL.md. We mount the
+# ./skills directory into DSH's skill scan path via the documented
+# `customSkillDirs` scan location (priority 300), so the
+# `dsh-secret-leakage-scan` skill becomes available in-session.
+#
+# NOTE: key name follows DSH's documented skill-scan config (`customSkillDirs`).
+# If a future DSH runtime expects a different patch key for skill mounting,
+# adjust this file only — the SKILL.md body is runtime-agnostic.
+
+customSkillDirs:
+  - ./skills

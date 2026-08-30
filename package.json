@@ -1,0 +1,22 @@
+{
+  "name": "dsh-secret-leakage-scan",
+  "version": "0.1.0",
+  "description": "DSH skill/plugin: scan outgoing and published content for secret, credential, PII, and internal-path leakage before it escapes the trust boundary.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "secret-scan",
+    "credential-leak",
+    "security",
+    "pre-publish"
+  ],
+  "dsh": {
+    "profile": [
+      "web",
+      "headless"
+    ],
+    "bundle": "./cordis.patch.yml"
+  }
+}
