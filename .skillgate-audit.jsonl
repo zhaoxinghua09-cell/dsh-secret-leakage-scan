@@ -1,0 +1,3 @@
+{"timestamp": "2026-11-03T10:59:27.333677", "action": "scan", "skill_name": "", "skill_dir": "D:\\Doubao\\skillgate-rollout\\satellites\\dsh-secret-leakage-scan", "trust_score": 72, "grade": "B", "findings_count": 1, "rule_version": "v3.0.0"}
+{"timestamp": "2026-11-03T11:43:13.732965", "action": "scan", "skill_name": "", "skill_dir": "D:\\Doubao\\skillgate-rollout\\satellites\\dsh-secret-leakage-scan", "trust_score": 72, "grade": "B", "findings_count": 1, "rule_version": "v3.0.0"}
+{"timestamp": "2026-11-03T13:20:07.514920", "action": "scan", "skill_name": "dsh-secret-leakage-scan", "skill_dir": "D:\\Doubao\\skillgate-rollout\\satellites\\dsh-secret-leakage-scan", "trust_score": 100, "grade": "A+", "findings_count": 0, "rule_version": "v3.0.0"}
