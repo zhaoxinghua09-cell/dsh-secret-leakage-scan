@@ -1,0 +1,15 @@
+# dsh-secret-leakage-scan
+
+> Why it exists: once a live secret hits a public repo, a post, or an append-only log, it is irreversible. Rotation is the only fix, and you can't un-see it. This
+
+## Repository
+
+- dsh-secret-leakage-scan: https://github.com/zhaoxinghua09-cell/dsh-secret-leakage-scan (Why it exists: once a live secret hits a public repo, a post, or an append-only log, it is irreversible. Rotation is the only fix, and you can't un-see it. This)
+
+## Ecosystem / 生态
+
+- awesome-trusted-agents: https://github.com/zhaoxinghua09-cell/awesome-trusted-agents
+- lgd-hub: https://github.com/zhaoxinghua09-cell/lgd-hub
+- lgd-skill-marketplace: https://github.com/zhaoxinghua09-cell/lgd-skill-marketplace
+- governanceos: https://github.com/zhaoxinghua09-cell/governanceos
+- skillgate: https://github.com/zhaoxinghua09-cell/skillgate
